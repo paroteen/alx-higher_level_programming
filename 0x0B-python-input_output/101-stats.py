@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 """
-reads stdin line by line and computes metrics
-"""
 import sys
 from collections import defaultdict
 
@@ -17,7 +15,7 @@ try:
         parts = line.split()
 
         # Extract relevant information from the line
-        status_code = parts[-2]
+        status_code = parts[-3]
         file_size = int(parts[-1])
 
         # Update total file size
