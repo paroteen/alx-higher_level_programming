@@ -1,8 +1,3 @@
 #!/bin/bash
-<<<<<<< HEAD
-# Makes a request to 0.0.0.0:5000/catch_me that gets the message "You got me!".
-curl -sL -X PUT -H "Origin: HolbertonSchool" -d "user_id=98" 0.0.0.0:5000/catch_me
-=======
-# bash script makes request to certain ip , ctf style 
-curl -sL 0.0.0.0:5000/catch_me -X PUT -H "Origin: HolbertonSchool" -d "user_id=98"
->>>>>>> e514e892f6cc2f6ae220c81aa6f9215bc7fe1247
+# sends a JSON POST request to a URL passed as the first argument, and displays the body of the response.
+curl -sX POST -H "Content-Type: application/json" -d @"$2" "$1"
