@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 import urllib.request
 
 url = "https://alx-intranet.hbtn.io/status"
@@ -14,4 +13,3 @@ try:
         print("    - utf8 content:", utf8_content)
 except urllib.error.URLError as e:
     print("Error:", e)
-
