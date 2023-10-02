@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Python - Network #0
 
 In this networking project, I used `curl` in Bash scripts to send various types
@@ -63,3 +64,6 @@ server set up on a container provided by ALX.
   * [102-catch_me.sh](./102-catch_me.sh): Bash script that sends a request to
   `0.0.0.0:5000/catch_me` that causes the server to respond with a message
   containing `You got me!` in the repsonse body.
+=======
+0 -> cURL body size
+>>>>>>> e514e892f6cc2f6ae220c81aa6f9215bc7fe1247
